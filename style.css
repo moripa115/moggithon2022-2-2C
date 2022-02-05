@@ -8,6 +8,7 @@ section {
     height: 100vh;
     background-color: rgb(39, 41, 68);
     font-family: sans-serif;
+    position: relative;
 }
 
 .score {
@@ -148,4 +149,11 @@ div.fadeIn {
     100% {
         transform: translateY(0px);
     }
+}
+
+div.tweet{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
